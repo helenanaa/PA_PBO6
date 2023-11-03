@@ -38,15 +38,15 @@ SISTEM PERKEBUNAN PROBADI
 
 
 ## 6. Screenshot Kodingan
-### Pola Desain ORM: 
+### Pola Desain ORM
 ###Kelas Dataproduk ini mengimplementasikan fungsionalitas dasar CRUD (Create, Read, Update, Delete) yang umum digunakan dalam pola desain ORM. Fungsi-fungsi seperti create(), find(), update(), dan delete() berinteraksi dengan database untuk membuat, membaca, memperbarui, dan menghapus data.
 
-### Best Practice untuk Variabel Final, Property, Method, dan Class:
+### Best Practice untuk Variabel Final, Property, Method, dan Class
 ###Variabel final: Metode create() dan find() dinyatakan sebagai final, yang menunjukkan bahwa metode-metode ini tidak dapat di-override oleh subclass.
 ###Property: Variabel ID_Produk, Nama_Produk, Jenis_Produk, Tanggal_Panen, Stok_Kg, dan ADMIN_ID_USER dideklarasikan sebagai properti kelas.
 ###Method: Terdapat penggunaan method create(), find(), update(), dan delete() yang sesuai dengan fungsionalitas CRUD.
 
-### Inheritance, Encapsulation, Polymorphism, Abstraction:
+### Inheritance, Encapsulation, Polymorphism, Abstraction
 ###Kelas Dataproduk mewarisi fungsionalitas dari kelas Database, sehingga mengikuti prinsip Inheritance. Penggunaan modifikasi akses pada variabel properti (seperti ID_Produk, Nama_Produk, dsb.) dan metode memastikan Encapsulation.
 
 ### Susunan Direktori
