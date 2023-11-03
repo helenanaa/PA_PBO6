@@ -23,13 +23,13 @@ SISTEM PERKEBUNAN PROBADI
 
 
 ## 4. ERD (Entity Relationship Diagram)
-###Logical
+### Logical
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/96ccd109-2858-4821-bcf4-8aa789906d72)
 
-###Relational
+### Relational
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/a04a5f82-7c6d-44c6-8c75-681cae035bb3)
 
-###Relasi phpmyadmin
+### Relasi phpmyadmin
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/08167343-ac68-4a6a-b837-884cb74eb087)
 
 ## 5. Hirarki Kelas
@@ -38,41 +38,49 @@ SISTEM PERKEBUNAN PROBADI
 
 
 ## 6. Screenshot Kodingan
+### Pola Desain ORM: 
+###Kelas Dataproduk ini mengimplementasikan fungsionalitas dasar CRUD (Create, Read, Update, Delete) yang umum digunakan dalam pola desain ORM. Fungsi-fungsi seperti create(), find(), update(), dan delete() berinteraksi dengan database untuk membuat, membaca, memperbarui, dan menghapus data.
 
-Tambahkan screenshot kodingan berserta penjelasan di sini. Ini akan membantu pengguna memahami logika di balik aplikasi Anda.
+### Best Practice untuk Variabel Final, Property, Method, dan Class:
+###Variabel final: Metode create() dan find() dinyatakan sebagai final, yang menunjukkan bahwa metode-metode ini tidak dapat di-override oleh subclass.
+###Property: Variabel ID_Produk, Nama_Produk, Jenis_Produk, Tanggal_Panen, Stok_Kg, dan ADMIN_ID_USER dideklarasikan sebagai properti kelas.
+###Method: Terdapat penggunaan method create(), find(), update(), dan delete() yang sesuai dengan fungsionalitas CRUD.
+
+### Inheritance, Encapsulation, Polymorphism, Abstraction:
+###Kelas Dataproduk mewarisi fungsionalitas dari kelas Database, sehingga mengikuti prinsip Inheritance. Penggunaan modifikasi akses pada variabel properti (seperti ID_Produk, Nama_Produk, dsb.) dan metode memastikan Encapsulation.
 
 ## 7. Screenshot Output
-###Role Login
+### Role Login
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/ee4f9df8-c478-4581-b55a-4ec5181f11a4)
 
-###Login Owner
+### Login Owner
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/a42fb75f-adae-426e-9179-00f3324186dd)
 
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/781954b8-ea7c-4c3b-8337-eb8e40cd25be)
 
-###Menu Owner
+### Menu Owner
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/6e1f7608-36cb-4ceb-b577-7e1f557a1ac5)
 
-###Informasi Data Produk
+### Informasi Data Produk
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/2800aa06-9551-4f21-a865-15ca8ee98b82)
 
-###Login Admin
+### Login Admin
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/480a3abe-831c-4ce0-aea2-d814dc85536b)
 
-###Menu Admin
+### Menu Admin
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/d6ce3e7b-dc8f-43c3-a467-6cf34f5b0a6a)
 
-###Kelola Data Produk
+### Kelola Data Produk
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/252a5647-c404-439e-b32c-6841415ce087)
 
-###Tambah Data Produk
+### Tambah Data Produk
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/18dc175e-5180-452e-97c0-12b39b3a1317)
 
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/55728775-9554-47e6-9185-fcb153e004f4)
 
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/52435c26-0ae5-45a7-bf03-69d361a50d2e)
 
-###Hapus Data Produk
+### Hapus Data Produk
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/535ae250-a121-4a79-8dac-fff1ca49b41b)
 
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/a9c10972-5e0b-4e64-ad58-94e1ea176537)
@@ -83,7 +91,7 @@ Tambahkan screenshot kodingan berserta penjelasan di sini. Ini akan membantu pen
 
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/7b1e4854-5240-4441-b275-5c0edfb04ec5)
 
-###Edit Data Produk
+### Edit Data Produk
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/30ddf4e6-a49f-4c42-adb1-137fbd05e94f)
 
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/73581a3f-71f6-487b-9dbd-65821b172772)
