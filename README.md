@@ -49,6 +49,28 @@ SISTEM PERKEBUNAN PROBADI
 ### Inheritance, Encapsulation, Polymorphism, Abstraction:
 ###Kelas Dataproduk mewarisi fungsionalitas dari kelas Database, sehingga mengikuti prinsip Inheritance. Penggunaan modifikasi akses pada variabel properti (seperti ID_Produk, Nama_Produk, dsb.) dan metode memastikan Encapsulation.
 
+### Susunan Direktori
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/dbff070c-f5ec-4c50-90db-2dcd480369fd)
+
+### Codingan
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/28ff4efb-fd36-46ff-8fc8-9c44ade22c6d)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/9221c8ee-ee1a-4bd2-8e5b-027e80e2b20b)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/ac8d7bfc-8bba-420b-b069-7555d8afa303)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/1507e56e-dfd3-4a95-81d4-9d39dbd50f74)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/052ef99f-00c6-48a4-8290-4c7ad432c4d8)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/3313be6f-050a-4c3d-8631-80fc957eccbe)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/fda6b0f5-171e-48a3-89a3-97ac1e2c0788)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/ac8141de-46f3-411c-b1be-b708bb53187e)
+
+![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/85831db0-08c0-4241-a88d-200c4577662a)
+
 ## 7. Screenshot Output
 ### Role Login
 ![image](https://github.com/helenanaa/PA_PBO6/assets/115265157/ee4f9df8-c478-4581-b55a-4ec5181f11a4)
